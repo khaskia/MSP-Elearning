@@ -1,0 +1,27 @@
+SMAP
+groups_jsp.java
+JSP
+*S JSP
+*F
++ 0 header.jsp
+header.jsp
++ 1 groups.jsp
+groups.jsp
++ 2 footer.jsp
+footer.jsp
+*L
+1,2:52
+4,5:55
+8,8:60
+16:68,3
+17,181:71
+198:252,3
+199,3:255
+202:258,3
+203,7:261
+1#1:268,2
+3,4:271
+6,47:275
+1#2,83:321
+52#1:404,2
+*E

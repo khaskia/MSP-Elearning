@@ -1,0 +1,348 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+  perspective: 600px; 
+  font-family: 'Droid Sans', sans-serif;
+  min-height: 600px;
+}
+
+
+
+.breadcrumb {
+  margin-bottom: 0px;
+}
+
+
+.history {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  cursor: pointer;
+  color: #000;
+}
+
+
+.history p {
+  line-height: 2;
+  font-size: 18px;
+  font-family:Arial,Tahoma;
+  margin-top: 20px;
+  color: #202020;
+  
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+
+
+/*council pages*/
+
+.council-content {
+  background:url(../images/council-img.jpg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 500px;
+}
+
+
+/* End council */
+
+
+/* Our Team */ 
+
+.about-us  {
+  min-height: 500px;
+  background: url(../images/member.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.mem .breadcrumb {
+  margin-bottom: 0px;
+}
+
+.members{
+  background: rgba(6,6,6,.4);
+  width: 100%;
+  min-height: 500px;
+  color: #FFF;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.members h1 {
+  
+} 
+
+.members hr {
+  width: 100px;
+  display: inline-block;
+}
+
+.members .sp1 {
+  display:block;
+}
+
+.sp2 {
+  color: #d35400;
+  font-size: 20px;
+}
+
+.member {
+  margin-top: 100px;
+  opacity: .4;
+  transition: all .44s ease-in-out;
+  transform-style: preserve-3d;
+  padding: 10px;
+  
+}
+
+
+
+.member:hover {
+  opacity: 1;
+  cursor: pointer;
+  transform: translate3d(2px,-40px,10px);
+  border: 1px solid #EEE;
+  color: #7f8c8d;
+}
+
+.member h2 {
+  font-size: 18px;
+  color: #FFF;
+}
+
+.member span {
+  color: #7f8c8d;
+}
+
+.member:hover span {
+  color: #FFF;
+}
+.member img {
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #FFF;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  transition: all .20s ease-in-out;
+  
+}
+
+.member:hover img {
+  border: 1px solid #2980b9;
+  box-shadow: 1px 1px 10px #34495e ;
+  cursor: pointer;
+  opacity: 1
+  
+}
+
+/*  End our team       */
+
+
+/* Dean page */
+
+.clear {
+  clear: both;
+}
+.contents {
+  padding-bottom: 20px;
+  overflow: hidden;
+  padding-top: 20px;
+  
+}
+
+.contents img {
+  float: left;
+  margin-right: 30px;
+  box-shadow: 1px 1px 10px #2c3e50;
+}
+.contents h1 {
+  margin-bottom: 20px;
+
+  
+}
+
+.contents p {
+  text-align: justify;
+  line-height: 2;
+  
+  
+}
+
+/* End Dean page */
+
+
+/* staff register */
+
+.staff-register {
+  background: url(../images/member.jpg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 400px;
+  
+    
+}
+
+
+.staff {
+  background: rgba(2,2,2,.8);
+  min-height: 400px;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.staff h1 {
+  margin-bottom: 20px;
+}
+
+.staff .form-control {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background:rgba(149, 165, 166,.3);
+  color: #FFF;
+  border: 0px;
+  transition: all .22s ease-in-out;
+}
+
+
+.staff .form-control:focus,.staff .form-control:hover{
+  transform: scale(1.1,1.1);
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.staff input[type="submit"] {
+  font-size: 18px;
+}
+
+.ff{
+    background-color: #323737;
+}
+
+
+.staff input[type="submit"]:hover {
+  background:rgba(236, 240, 241,.8);
+  color: #000;
+}
+
+.year-list {
+  background: #000;
+}
+/* end staff register */
+
+
+/* Start profile */
+
+.profile h1 {
+  font-family: raleway;
+  color: #3498db;
+  font-weight: normal
+}
+
+.profile-menu input[type="submit"] {
+  
+  margin-top:0px;
+  margin-bottom: 0px;
+  
+}
+
+.post {
+  margin-top: 50px;
+}
+
+.top-post input[type="submit"]{
+  max-width: 150px;
+  margin-top: 10px;
+  transition: all .22s ease-in-out;
+}
+
+.top-post input[type="submit"]:hover {
+  background: #3498db;
+  color: #fff;
+
+}
+
+.bottom-post {
+  margin-top: 20px;
+  height: 300px;
+  
+}
+.post-name {
+  position: relative;
+  right: 149px;
+}
+
+.bottom-post input[type="text"]{
+ height: 80px;
+  overflow-y: scroll;
+}
+.comment {
+  overflow-y: scroll;
+  margin-top: 5px;
+  margin-left: 60px;
+  border: 1px solid #eee;
+  width: 60%;
+  height: 300px;
+  
+}
+
+.comment span {
+  position: relative;
+  right: 120px;
+}
+
+.comment input[type="text"] {
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+
+/* End profile */
+
+
+/* Start course details */
+
+.course  {
+  overflow: hidden;
+  padding-bottom:30px;
+}
+
+.course p{
+  margin-top: 20px;
+}
+.course h1 {
+  text-align: center;
+  margin-top: 30px;
+  
+}
+.course img {
+ margin-bottom: 30px;
+}
+
+
+
+.course input[type="text"] {
+  margin-top: 20px;
+  max-width: 500px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+

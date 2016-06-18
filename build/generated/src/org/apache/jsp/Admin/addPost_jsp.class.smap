@@ -1,0 +1,13 @@
+SMAP
+addPost_jsp.java
+JSP
+*S JSP
+*F
++ 0 sidebar.jsp
+Admin/sidebar.jsp
++ 1 addPost.jsp
+Admin/addPost.jsp
+*L
+1,89:49
+1#1,93:138
+*E

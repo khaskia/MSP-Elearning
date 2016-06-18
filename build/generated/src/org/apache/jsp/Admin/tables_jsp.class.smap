@@ -1,0 +1,13 @@
+SMAP
+tables_jsp.java
+JSP
+*S JSP
+*F
++ 0 sidebar.jsp
+Admin/sidebar.jsp
++ 1 tables.jsp
+Admin/tables.jsp
+*L
+1,88:49
+1#1,131:137
+*E

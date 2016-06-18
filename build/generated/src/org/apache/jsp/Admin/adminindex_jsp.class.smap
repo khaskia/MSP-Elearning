@@ -1,0 +1,13 @@
+SMAP
+adminindex_jsp.java
+JSP
+*S JSP
+*F
++ 0 adminheaderandsidebar.jsp
+Admin/adminheaderandsidebar.jsp
++ 1 adminindex.jsp
+Admin/adminindex.jsp
+*L
+1,89:49
+1#1,300:138
+*E
